@@ -1,5 +1,5 @@
 #! /usr/bin/ruby
-# Script to separate geojson collection to a file for each district.
+# Script to separate geojson collection to a file for each district. The geojson file must be already created from the SHAPE file provided.
 require 'rubygems'
 require 'fileutils'
 require 'json'
